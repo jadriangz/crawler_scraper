@@ -1,0 +1,5 @@
+crawl4ai
+playwright
+pdfkit
+requests
+python-dotenv

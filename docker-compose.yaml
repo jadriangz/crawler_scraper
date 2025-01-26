@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  scraper:
+    build: .
+    environment:
+      - DEEPSEEK_API_KEY=`${DEEPSEEK_API_KEY}
+    volumes:
+      - ./outputs:/app/outputs
+      
